@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="NNO">
+  <Package name="Miscs">
+    <Container name="ModInfo">
+      <Key ID="STR_NNO_Mod_Name">
+        <Original>Nurmi News Outlet</Original>
+        <English>Nurmi News Outlet</English>
+      </Key>
+    </Container>
+    <Container name="Notifications">
+      <Key ID="STR_NNO_Notification_News">
+        <Original>[['New news article has been published'],['You can access it from diary records'],['(Briefing -&gt; Articles)']]</Original>
+        <English>[['New news article has been published'],['You can access it from diary records'],['(Briefing -&gt; Articles)']]</English>
+      </Key>
+      <Key ID="STR_NNO_Notification_PlaceholderName">
+        <Original>News Article</Original>
+        <English>News Article</English>
+      </Key>
+      <Key ID="STR_NNO_Notification_NoTitle">
+        <Original>Article has no title!</Original>
+        <English>Article has no title!</English>
+      </Key>
+    </Container>
+    <Container name="Errors">
+      <Key ID="STR_NNO_Error_NoObject">
+        <Original>Object is not defined or doesn't exist</Original>
+        <English>Object is not defined or doesn't exist</English>
+      </Key>
+      <Key ID="STR_NNO_Error_ImagePath">
+        <Original>Invalid image patht</Original>
+        <English>Invalid image path</English>
+      </Key>
+    </Container>
+    <Container name="Actions">
+      <Key ID="STR_NNO_Action_MainAction">
+        <Original>News</Original>
+        <English>News</English>
+      </Key>
+      <Key ID="STR_NNO_Action_newArticle">
+        <Original>Write a new article</Original>
+        <English>Write a new article</English>
+      </Key>
+    </Container>
+    <Container name="CBA">
+      <Key ID="STR_NNO_CBA_Category_Main">
+        <Original>NURMI News Outlet</Original>
+        <English>NURMI News Outlet</English>
+      </Key>
+      <Key ID="STR_NNO_CBA_Category_General">
+        <Original>General</Original>
+        <English>General</English>
+      </Key>
+      <Key ID="STR_NNO_CBA_Debug_Name">
+        <Original>Mission Debug</Original>
+        <English>Mission Debug</English>
+      </Key>
+      <Key ID="STR_NNO_CBA_Debug_Tooltip">
+        <Original>Set debug for the mission, if set to TRUE; some values will be upload to the report file</Original>
+        <English>Set debug for the mission, if set to TRUE; some values will be upload to the report file</English>
+      </Key>
+    </Container>
+    <Container name="Dialog">
+      <Key ID="STR_NNO_Dialog_News_AAN">
+        <Original>AAN World News</Original>
+        <English>AAN World News</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Title">
+        <Original>News Title:</Original>
+        <English>News Title:</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Summary">
+        <Original>News Summary:</Original>
+        <English>News Summary:</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Text">
+        <Original>News Text:</Original>
+        <English>News Text:</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Theme">
+        <Original>Pictures Theme:</Original>
+        <English>Pictures Theme:</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Position">
+        <Original>Pictures Position:</Original>
+        <English>Pictures Position:</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Distribute">
+        <Original>Distribute</Original>
+        <English>Distribute</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_Preview">
+        <Original>Preview</Original>
+        <English>Preview</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_NoPicture">
+        <Original>No Picture</Original>
+        <English>No Picture</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_PicturePos_Up">
+        <Original>Up</Original>
+        <English>Up</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_PicturePos_Middle">
+        <Original>Middle</Original>
+        <English>Middle</English>
+      </Key>
+      <Key ID="STR_NNO_Dialog_News_PicturePos_Down">
+        <Original>Down</Original>
+        <English>Down</English>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="Modules">
+    <Container name="ModuleMain">
+      <Key ID="STR_NNO_ModuleMain_DisplayName">
+        <Original>Main</Original>
+        <English>Main</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleMain_Object">
+        <Original>Objects</Original>
+        <English>Objects</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleMain_Object_Tooltip">
+        <Original>Name of the object(s), to whom the actions will be attached to (separate multiple objects with comma sign)</Original>
+        <English>Name of the object(s), to whom the actions will be attached to (separate multiple objects with comma sign)</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleMain_Description">
+        <Original>Add create article actions to designated object(s) specified in the module.</Original>
+        <English>Add create article actions to designated object(s) specified in the module.</English>
+      </Key>
+    </Container>
+    <Container name="ModuleImage">
+      <Key ID="STR_NNO_ModuleImage_DisplayName">
+        <Original>Add Image</Original>
+        <English>Add Image</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Name">
+        <Original>Image Name</Original>
+        <English>Image Name</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Name_Tooltip">
+        <Original>Name of the image that will be shown when creating an article.</Original>
+        <English>Name of the image that will be shown when creating an article.</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Path">
+        <Original>Image Path</Original>
+        <English>Image Path</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Path_Tooltip">
+        <Original>Path to the image file. The image should have 2:1 ratio.</Original>
+        <English>Path to the image file. The image should have 2:1 ratio.</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Description">
+        <Original>Image Description</Original>
+        <English>Image Description</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Description_Tooltip">
+        <Original>Describe the essential information in the image.</Original>
+        <English>Describe the essential information in the image.</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleImage_Description">
+        <Original>Add article image</Original>
+        <English>Add article image</English>
+      </Key>
+    </Container>
+    <Container name="ModuleBio">
+      <Key ID="STR_NNO_ModuleBio_DisplayName">
+        <Original>Add Author's Bio</Original>
+        <English>Add Author's Bio</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Object">
+        <Original>Object</Original>
+        <English>Object</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Object_Tooltip">
+        <Original>Name of the object, to whom the biography will be attached to.</Original>
+        <English>Name of the object, to whom the biography will be attached to.</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Biography">
+        <Original>Author's Biography</Original>
+        <English>Author's Biography</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Biography_Tooltip">
+        <Original>Author's Biography</Original>
+        <English>Author's Biography</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Path">
+        <Original>Image Path</Original>
+        <English>Image Path</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Path_Tooltip">
+        <Original>Path to the image file. The image should have 1:1 ratio. (OPTIONAL)</Original>
+        <English>Path to the image file. The image should have 1:1 ratio. (OPTIONAL)</English>
+      </Key>
+      <Key ID="STR_NNO_ModuleBio_Description">
+        <Original>Adds author's Biography to article that he/she will publish. Synchronize with object or use the object field.</Original>
+        <English>Adds author's Biography to article that he/she will publish. Synchronize with object or use the object field.</English>
+      </Key>
+    </Container>
+  </Package>
+</Project>
