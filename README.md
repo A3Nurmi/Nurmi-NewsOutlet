@@ -1,6 +1,6 @@
 <a href="https://armafinland.fi/"><img src="https://armafinland.fi/logot/armafin-logo-200px.png" title="Armafinland" alt="Armafinland"></a>
 
-# Nurmi-News-Outlet
+# Nurmi News Outlet
 
 **-Work in Progress-**
 
